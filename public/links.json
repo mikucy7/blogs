@@ -1,0 +1,26 @@
+{
+  "friends": [
+    {
+      "id_name": "cf-links",
+      "desc": "友情链接",
+      "link_list": [
+        {
+          "name": "Dairy://OS",
+          "intro": "手写科技风个人档案库",
+          "link": "https://dairy-os.pages.dev/",
+          "avatar": "/avatars/dairy.png"
+        }
+      ]
+    },
+    {
+      "id_name": "inactive-links",
+      "desc": "Inactive or rule-breaking friends",
+      "link_list": []
+    },
+    {
+      "id_name": "special-links",
+      "desc": "Other special links",
+      "link_list": []
+    }
+  ]
+}
