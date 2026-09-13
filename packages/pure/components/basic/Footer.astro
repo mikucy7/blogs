@@ -89,3 +89,14 @@ const footerLink1 = footerConf.links?.filter(({ pos }) => pos === 1) || []
     font-weight: 500;
   }
 </style>
+
+<script>
+  // 运行天数（建站日：2026-09-03）
+  (function () {
+    const el = document.getElementById('run-days');
+    if (!el) return;
+    const days = Math.max(1, Math.ceil((Date.now() - new Date('2026-09-03')) / 86400000));
+    el.textContent = String(days);
+  })();
+</script>
+<script async src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'></script>

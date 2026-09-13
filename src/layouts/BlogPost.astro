@@ -60,6 +60,12 @@ const primaryColor = data.heroImage?.color ?? 'hsl(var(--primary) / var(--un-tex
   <slot />
 
   <Fragment slot='bottom'>
+    {/* 阅读次数（不蒜子） */}
+    <div class='mb-2 text-sm text-muted-foreground'>
+      👁 本文阅读 <span id='busuanzi_value_page_pv'><span style='display:none'>…</span></span> 次
+      <script async src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'></script>
+    </div>
+
     {/* Copyright */}
     <Copyright {data} />
     {/* Article recommend */}

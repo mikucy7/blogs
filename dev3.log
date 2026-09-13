@@ -1,0 +1,25 @@
+
+ ⛅️ wrangler 4.131.1
+────────────────────
+✨ Compiled Worker successfully
+Using secrets defined in .dev.vars
+Your Worker has access to the following bindings:
+Binding                                                                   Resource                  Mode
+env.POSTS_KV (2658cc3e10214224a6b7e46244fe70d4)                           KV Namespace              local
+env.CF_PAGES ("1")                                                        Environment Variable      local
+env.CF_PAGES_BRANCH ("main")                                              Environment Variable      local
+env.CF_PAGES_COMMIT_SHA ("288be936eceb8d9a7888e7df46f37535ca0ca...")      Environment Variable      local
+env.CF_PAGES_URL ("https://288be93.blogs.pages.dev")                      Environment Variable      local
+env.SITE_PASSWORD ("(hidden)")                                            Environment Variable      local
+
+⎔ Starting local server...
+[wrangler:info] Ready on http://127.0.0.1:8791
+Using secrets defined in .dev.vars
+Your Worker has access to the following bindings:
+Binding                                                                   Resource                  Mode
+env.POSTS_KV (2658cc3e10214224a6b7e46244fYour Worker has access to the following bindings:
+Binding                                                                   Resource                  Mode
+env.POSTS_KV (2658cc3e10214224a6b7e46244fe70d4)                           KV Namespace              local
+env.CF_PAGES ("1")                                                        Environment Variable      local
+env.CF_PAGES_BRANCH ("main")                                              Environment Variable      local
+env.CF_PAGES_COMMIT_SHA ("288b

@@ -26,6 +26,7 @@
     "astro": "6.2.1",
     "astro-pure": "file:./packages/pure",
     "katex": "^0.16.45",
+    "marked": "^18.0.13",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0",
     "sharp": "^0.34.5",

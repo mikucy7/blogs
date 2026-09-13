@@ -107,4 +107,39 @@ const paginationProps = {
       )
     }
   </main>
+
+<script>
+  // ☁️ 在线文章注入：把写作台直接发布的文章（KV 存储）加到列表顶部
+  async function injectOnline() {
+    try {
+      const ul = document.querySelector('#content ul');
+      const tpl = ul && ul.querySelector('li');
+      if (!ul || !tpl) return;
+      const r = await fetch('/api/posts');
+      if (!r.ok) return;
+      const data = await r.json();
+      const posts = data.posts || [];
+      for (const p of posts) {
+        const li = tpl.cloneNode(true);
+        const a = li.querySelector('a');
+        if (a) a.setAttribute('href', '/online/' + p.slug);
+        const time = li.querySelector('time');
+        if (time) {
+          time.setAttribute('datetime', p.date);
+          time.textContent = ' ' + p.date + ' ';
+        }
+        const title = li.querySelector('.font-medium');
+        if (title) title.textContent = '☁️ ' + p.title;
+        const desc = li.querySelector('p');
+        if (desc) desc.textContent = p.description || '';
+        const row = li.querySelector('div.py-2');
+        if (row) row.innerHTML = '<span class="text-xs text-muted-foreground">☁️ 在线发布</span>';
+        ul.insertBefore(li, ul.firstChild);
+      }
+    } catch (e) {
+      console.warn('在线文章注入失败:', e);
+    }
+  }
+  injectOnline();
+</script>
 </PageLayout>

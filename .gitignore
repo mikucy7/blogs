@@ -45,3 +45,4 @@ build.log
 .npmrc
 pnpm-lock.yaml
 pnpm-workspace.yaml
+.dev.vars

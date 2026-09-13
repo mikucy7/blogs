@@ -1,0 +1,9 @@
+name = "blogs"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-08-01"
+
+[[kv_namespaces]]
+binding = "POSTS_KV"
+id = "2658cc3e10214224a6b7e46244fe70d4"
+
+# 提示：本地测试口令用 .dev.vars（不入库）；生产口令用 wrangler pages secret put SITE_PASSWORD --project-name blogs
