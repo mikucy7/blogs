@@ -1,0 +1,251 @@
+{
+  "result": {
+    "total": 60,
+    "includes_container_logs": true,
+    "data": [
+      {
+        "ts": "2026-09-13T16:00:16.175051Z",
+        "line": "Cloning repository..."
+      },
+      {
+        "ts": "2026-09-13T16:00:18.027653Z",
+        "line": "From https://github.com/mikucy7/blogs"
+      },
+      {
+        "ts": "2026-09-13T16:00:18.027989Z",
+        "line": " * branch            b98bd30124f66971ffd4b43bbb7db96bc554e123 -\u003e FETCH_HEAD"
+      },
+      {
+        "ts": "2026-09-13T16:00:18.028061Z",
+        "line": ""
+      },
+      {
+        "ts": "2026-09-13T16:00:18.081284Z",
+        "line": "HEAD is now at b98bd30 feat: 在线发文系统（写作台/KV 存储/文章页）+ 清理模板残留 + 不蒜子统计"
+      },
+      {
+        "ts": "2026-09-13T16:00:18.081662Z",
+        "line": ""
+      },
+      {
+        "ts": "2026-09-13T16:00:18.32647Z",
+        "line": ""
+      },
+      {
+        "ts": "2026-09-13T16:00:18.326879Z",
+        "line": "Using v2 root directory strategy"
+      },
+      {
+        "ts": "2026-09-13T16:00:18.339682Z",
+        "line": "Success: Finished cloning repository files"
+      },
+      {
+        "ts": "2026-09-13T16:00:20.2069Z",
+        "line": "Checking for configuration in a Wrangler configuration file (BETA)"
+      },
+      {
+        "ts": "2026-09-13T16:00:20.207418Z",
+        "line": ""
+      },
+      {
+        "ts": "2026-09-13T16:00:20.208151Z",
+        "line": "Found wrangler.toml file. Reading build configuration..."
+      },
+      {
+        "ts": "2026-09-13T16:00:20.21585Z",
+        "line": "pages_build_output_dir: dist"
+      },
+      {
+        "ts": "2026-09-13T16:00:20.216176Z",
+        "line": "Build environment variables: (none found)"
+      },
+      {
+        "ts": "2026-09-13T16:00:20.388914Z",
+        "line": "Successfully read the Wrangler configuration file."
+      },
+      {
+        "ts": "2026-09-13T16:00:20.772502Z",
+        "line": "Detected the following tools from environment: nodejs@22.22.0, npm@10.9.2"
+      },
+      {
+        "ts": "2026-09-13T16:00:20.773018Z",
+        "line": "Installing nodejs 22.22.0"
+      },
+      {
+        "ts": "2026-09-13T16:00:21.674428Z",
+        "line": "Trying to update node-build... ok"
+      },
+      {
+        "ts": "2026-09-13T16:00:21.747224Z",
+        "line": "To follow progress, use 'tail -f /tmp/node-build.20260913160021.800.log' or pass --verbose"
+      },
+      {
+        "ts": "2026-09-13T16:00:21.792929Z",
+        "line": "Downloading node-v22.22.0-linux-x64.tar.gz..."
+      },
+      {
+        "ts": "2026-09-13T16:00:21.866083Z",
+        "line": "-\u003e https://nodejs.org/dist/v22.22.0/node-v22.22.0-linux-x64.tar.gz"
+      },
+      {
+        "ts": "2026-09-13T16:00:24.677584Z",
+        "line": ""
+      },
+      {
+        "ts": "2026-09-13T16:00:24.677892Z",
+        "line": "WARNING: node-v22.22.0-linux-x64 is in LTS Maintenance mode and nearing its end of life."
+      },
+      {
+        "ts": "2026-09-13T16:00:24.677954Z",
+        "line": "It only receives *critical* security updates, *critical* bug fixes and documentation updates."
+      },
+      {
+        "ts": "2026-09-13T16:00:24.677994Z",
+        "line": ""
+      },
+      {
+        "ts": "2026-09-13T16:00:24.678029Z",
+        "line": "Installing node-v22.22.0-linux-x64..."
+      },
+      {
+        "ts": "2026-09-13T16:00:25.165391Z",
+        "line": "Installed node-v22.22.0-linux-x64 to /opt/buildhome/.asdf/installs/nodejs/22.22.0"
+      },
+      {
+        "ts": "2026-09-13T16:00:25.165836Z",
+        "line": ""
+      },
+      {
+        "ts": "2026-09-13T16:00:27.164998Z",
+        "line": "Installing project dependencies: npm clean-install --progress=false"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.544101Z",
+        "line": "npm error code EUSAGE"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.544485Z",
+        "line": "npm error"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.544599Z",
+        "line": "npm error `npm ci` can only install packages when your package.json and package-lock.json or npm-shrinkwrap.json are in sync. Please update your lock file with `npm install` before continuing."
+      },
+      {
+        "ts": "2026-09-13T16:00:28.544672Z",
+        "line": "npm error"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.544736Z",
+        "line": "npm error Missing: typescript@5.9.3 from lock file"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.544773Z",
+        "line": "npm error"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.544802Z",
+        "line": "npm error Clean install a project"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.544861Z",
+        "line": "npm error"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.544895Z",
+        "line": "npm error Usage:"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.544927Z",
+        "line": "npm error npm ci"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.544957Z",
+        "line": "npm error"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.544986Z",
+        "line": "npm error Options:"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.545049Z",
+        "line": "npm error [--install-strategy \u003choisted|nested|shallow|linked\u003e] [--legacy-bundling]"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.545088Z",
+        "line": "npm error [--global-style] [--omit \u003cdev|optional|peer\u003e [--omit \u003cdev|optional|peer\u003e ...]]"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.545121Z",
+        "line": "npm error [--include \u003cprod|dev|optional|peer\u003e [--include \u003cprod|dev|optional|peer\u003e ...]]"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.545192Z",
+        "line": "npm error [--strict-peer-deps] [--foreground-scripts] [--ignore-scripts] [--no-audit]"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.545255Z",
+        "line": "npm error [--no-bin-links] [--no-fund] [--dry-run]"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.54531Z",
+        "line": "npm error [-w|--workspace \u003cworkspace-name\u003e [-w|--workspace \u003cworkspace-name\u003e ...]]"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.545428Z",
+        "line": "npm error [-ws|--workspaces] [--include-workspace-root] [--install-links]"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.545489Z",
+        "line": "npm error"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.545533Z",
+        "line": "npm error aliases: clean-install, ic, install-clean, isntall-clean"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.545647Z",
+        "line": "npm error"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.545708Z",
+        "line": "npm error Run \"npm help ci\" for more info"
+      },
+      {
+        "ts": "2026-09-13T16:00:28.545752Z",
+        "line": "npm error A complete log of this run can be found in: /opt/buildhome/.npm/_logs/2026-09-13T16_00_27_404Z-debug-0.log"
+      },
+      {
+        "ts": "2026-09-13T16:00:29.072364Z",
+        "line": "Error: Exit with error code: 1"
+      },
+      {
+        "ts": "2026-09-13T16:00:29.072706Z",
+        "line": "    at ChildProcess.\u003canonymous\u003e (/snapshot/dist/run-build.js)"
+      },
+      {
+        "ts": "2026-09-13T16:00:29.072842Z",
+        "line": "    at Object.onceWrapper (node:events:652:26)"
+      },
+      {
+        "ts": "2026-09-13T16:00:29.072919Z",
+        "line": "    at ChildProcess.emit (node:events:537:28)"
+      },
+      {
+        "ts": "2026-09-13T16:00:29.073044Z",
+        "line": "    at ChildProcess._handle.onexit (node:internal/child_process:291:12)"
+      },
+      {
+        "ts": "2026-09-13T16:00:29.080008Z",
+        "line": "Failed: build command exited with code: 1"
+      },
+      {
+        "ts": "2026-09-13T16:00:29.810436Z",
+        "line": "Failed: error occurred while running build command"
+      }
+    ]
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}

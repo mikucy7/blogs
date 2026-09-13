@@ -22,4 +22,43 @@ Binding                                                                   Resour
 env.POSTS_KV (2658cc3e10214224a6b7e46244fe70d4)                           KV Namespace              local
 env.CF_PAGES ("1")                                                        Environment Variable      local
 env.CF_PAGES_BRANCH ("main")                                              Environment Variable      local
-env.CF_PAGES_COMMIT_SHA ("288b
+env.CF_PAGES_COMMIT_SHA ("288be936eceb8d9a7888e7df46f37535ca0ca...")      Environment Variable      local
+env.CF_PAGES_URL ⎔ Reloading local server...
+⎔ Local server updated and ready
+Using secrets defined in .dev.vars
+Your Worker has access to the following bindings:
+Binding                                                                   Resource                  Mode
+env.POSTS_KV (2658cc3e10214224a6b7e46244fe70d4)                           KV Namespace              local
+env.CF_PAGES ("1")                                                        Environment Variable      local
+env.CF_PAGES_BRANCH ("main")                                              Environment Variable      local
+env.CF_PAGES_COMMIT_SHA ("288be936eceb8d9a7888e7df46f37535ca0ca...")      Environment Variable      local
+env.CF_PAGES_URL ("https://288be93.blogs.pages.dev")                      Environment Variable      local
+env.SITE_PASSWORD ("(hidden)")                                            Environment Varienv.CF_PAGES_URL
+⎔ Reloading local server...
+⎔ Local server updated and ready
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mCannot find base config file "astro/tsconfigs/strict"[0m [tsconfig.json]
+
+    tsconfig.json:2:13:
+[37m      2 │   "extends": [32m"astro/tsco[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mCannot find base config file "astro/tsconfigs/strict"[0m [t⎔ Local server updated and ready
+▲ [WARNING] Cannot find base config file "astro/tsconfigs/strict" [tsconfig.json]
+
+    tsconfig.json:2:13:
+      2 │   "extends": "astro/tsconfigs/strict",
+        ╵              ~~~~~~~~~~~~~~~~~~~~~~~~
+
+▲ [WARNING] Cannot find base config file "astro/tsconfigs/strict" [tsconfig.json]
+
+    tsconfig.json:2:13:
+      2 │   "extends": "astro/tsconfigs/strict",
+        ╵              ~~~~~~~~~~~~~~~~~~~~~~~~
+
+▲ [WARNING] Cannot find base config file "astro/tsconfigs/strict" [tsconfig.json]
+
+    tsconfig.json:2:13:
+      2 │   "extends": "astro/tsconfigs/strict",
+        ╵              ~~~~~~~~~~~~~~~~~~~~~~~~
+
+▲ [WARNING] Cannot find base config file "astro/tsconfigs/strict" [tsconfig.json]
+
+    tsconfig.json:2:13:
+      2 │   "extends": "astro/ts
